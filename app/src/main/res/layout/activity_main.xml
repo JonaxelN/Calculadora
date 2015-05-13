@@ -1,0 +1,134 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculadora android"
+        />
+    <TextView
+        android:id="@+id/myTextView"
+        android:textSize="24sp"
+        android:layout_gravity="left"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Pulse para empezar a calcular"
+        />
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/myTextView2"
+            android:layout_span="3"
+            android:text="Resultado"
+            android:textSize="24sp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            />
+
+        <Button
+            android:text="="
+            android:textSize="24sp"
+            android:layout_span="1"
+            android:id="@+id/btnIgual"
+            />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:text="1"
+            android:textSize="24sp"
+            android:id="@+id/btnUno"
+            />
+        <Button
+            android:text="2"
+            android:textSize="24sp"
+            android:id="@+id/btnDos"
+            />
+        <Button
+            android:text="3"
+            android:textSize="24sp"
+            android:id="@+id/btnTres"
+            />
+        <Button
+            android:text="+"
+            android:textSize="24sp"
+            android:id="@+id/btnSumar"
+            />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:text="4"
+            android:textSize="24sp"
+            android:id="@+id/btnCuatro"
+            />
+        <Button
+            android:text="5"
+            android:textSize="24sp"
+            android:id="@+id/btnCinco"
+            />
+        <Button
+            android:text="6"
+            android:textSize="24sp"
+            android:id="@+id/btnSeis"
+            />
+        <Button
+            android:text="-"
+            android:textSize="24sp"
+            android:id="@+id/btnRestar"
+            />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:text="7"
+            android:textSize="24sp"
+            android:id="@+id/btnSiete"
+            />
+        <Button
+            android:text="8"
+            android:textSize="24sp"
+            android:id="@+id/btnOcho"
+            />
+        <Button
+            android:text="9"
+            android:textSize="24sp"
+            android:id="@+id/btnNueve"
+            />
+        <Button
+            android:text="X"
+            android:textSize="24sp"
+            android:id="@+id/btnMult"
+            />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:text="0"
+            android:textSize="24sp"
+            android:id="@+id/btnCero"
+            />
+        <Button
+            android:text="."
+            android:textSize="24sp"
+            android:id="@+id/btnPunto"
+            />
+        <Button
+            android:text="C"
+            android:textSize="24sp"
+            android:id="@+id/btnClear"
+            />
+        <Button
+            android:text="/"
+            android:textSize="24sp"
+            android:id="@+id/btnDiv"
+            />
+    </TableRow>
+
+</TableLayout>
